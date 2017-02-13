@@ -46,8 +46,22 @@ wget
 install-cygwin.bat
 - Navigate to your Start Menu, and find the "Cygwin Terminal" icon in your program list
 - Right click on the "Cygwin Terminal" and choose "Pin to taskbar"
+- Close the Command Prompt window
+
+# Add Cygwin to the System Path
+- Tap Windows-PrtScrn to bring up the System control panel dialog
+- On the left, at the Control Panel Home, click the "Advanced system settings"
+- Click the "Environment Varialbes..." button at the bottom
+- In the bottom section for System variables, scroll down to find "Path", select it, then click the "Edit..." button
+- Click in the "Variable value:" text window, tap the "End" key to get to the end of the string
+- Then add the following text to the end of the string
+;C:\Cygwin\bin
+- Click the "OK" button to close the "Edit System Variable" dialog window
+- Click the "OK" button to close the "Environment Variables" dialog window
+- Click the "OK" button to close the "System Properties" dialog window
 
 # Verify installation
+- Open a Command Prompt window
 - Type the following lines into your Command Prompt window
 mkdir C:\Vagrant
 cd C:\Vagrant
