@@ -56,9 +56,10 @@ install-cygwin.bat
 - Click in the "Variable value:" text window, tap the "End" key to get to the end of the string
 - Then add the following text to the end of the string
 ;C:\Cygwin\bin
-- Click the "OK" button to close the "Edit System Variable" dialog window
-- Click the "OK" button to close the "Environment Variables" dialog window
-- Click the "OK" button to close the "System Properties" dialog window
+- Click the "OK" button to close the "Edit System Variable" window
+- Click the "OK" button to close the "Environment Variables" window
+- Click the "OK" button to close the "System Properties" window
+- Close the "System" window
 
 # Verify installation
 - Open a Command Prompt window
