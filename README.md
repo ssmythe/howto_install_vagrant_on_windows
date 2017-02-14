@@ -25,7 +25,7 @@ A how to guide on installing Vagrant on Windows
 - Right click on the "Command Prompt" and choose "Pin to taskbar"
 - Once "setup-x86.exe" has downloaded, open a Command Prompt window
 - Type the following lines into your Command Prompt window
-```batch
+```text
 cd Downloads
 mkdir C:\cygwin-installer"
 move /y setup-x86.exe C:\cygwin-installer
@@ -33,7 +33,7 @@ cd C:\cygwin-installer
 notepad install-cygwin.bat
 ```
 - Copy and paste the following text into the bat file in Notepad, then save and exit Notepad
-```batch
+```text
 setup-x86.exe ^
 --no-desktop ^
 --quiet-mode ^
@@ -48,7 +48,7 @@ vim,^
 wget
 ```
 - Type the following lines into your Command Prompt window, and allow it to have administrator privileges to install the software.
-```batch
+```text
 install-cygwin.bat
 ```
 - Navigate to your Start Menu, and find the "Cygwin Terminal" icon in your program list
@@ -62,7 +62,7 @@ install-cygwin.bat
 - In the bottom section for System variables, scroll down to find "Path", select it, then click the "Edit..." button
 - Click in the "Variable value:" text window, tap the "End" key to get to the end of the string
 - Then add the following text to the end of the string
-```batch
+```text
 ;C:\Cygwin\bin
 ```
 - Click the "OK" button to close the "Edit System Variable" window
@@ -73,7 +73,7 @@ install-cygwin.bat
 # Verify installation
 - Open a Command Prompt window
 - Type the following lines into your Command Prompt window
-```batch
+```text
 mkdir C:\Vagrant
 cd C:\Vagrant
 mkdir centos-test
@@ -114,19 +114,19 @@ Bringing machine 'default' up with 'virtualbox' provider...
 ```
 - Let's log into the box.
 - Type the following lines into your Command Prompt window
-```batch
+```text
 vagrant ssh
 ```
 - You should see:
-```console
+```text
 [vagrant@localhost ~]$
 ```
 - Congratulations!  To exit the vagrant box, just type:
-```shell
+```text
 exit
 ```
 - To destroy the vagrant box, type the following line into your Command Prompt window
-```batch
+```text
 vagrant destroy -f
 ```
 - That's how easy it is!
