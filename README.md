@@ -27,7 +27,7 @@ A how to guide on installing Vagrant on Windows
 - Type the following lines into your Command Prompt window
 ```text
 cd Downloads
-mkdir C:\cygwin-installer"
+mkdir C:\cygwin-installer
 move /y setup-x86.exe C:\cygwin-installer
 cd C:\cygwin-installer
 notepad install-cygwin.bat
