@@ -121,11 +121,11 @@ vagrant ssh
 ```text
 [vagrant@localhost ~]$
 ```
-- Congratulations!  To exit the vagrant box, just type:
+- Congratulations!  You've just logged into your Vagrant box!  To exit the Vagrant box, just type:
 ```text
 exit
 ```
-- To destroy the vagrant box, type the following line into your Command Prompt window
+- To destroy the Vagrant box, type the following line into your Command Prompt window
 ```text
 vagrant destroy -f
 ```
